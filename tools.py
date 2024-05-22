@@ -55,8 +55,8 @@ def plot_column_summary_statistics(df : pd.DataFrame) -> None :
                  title = dict(text = f"{df.index.name.title()} VS " + " , ".join([col for col in df.columns]), font = dict(size = 26)),
                  margin = dict(t = 100, r = 80, b = 80, l = 120),
                  hovermode="closest",
-                 height = 1200,
-                 width = 1000)
+                 height = 1000,
+                 width = 1200)
 
     fig.show()
 
